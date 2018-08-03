@@ -45,3 +45,7 @@ h1{
 .timeline:first-child::after {
     display: none;
 }
+
+a:focus {
+    outline: none !important
+}
