@@ -1,22 +1,48 @@
-#home{
-    background: url('../images/LongTrail.jpg') no-repeat center center ;  
-    background-size: cover;
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    padding: 500px 0px;
+ body {
+     background-color: #574e51;
+     color: #0066cc;
+ }
+
+.container-fluid {
+    position: relative;
+    padding: 0;
 }
 
-h1{
-    color: #0066cc;
+.skillsIcon{
+    display: block;
+    position: center;
+    left: 30%;
+}
+
+.content {
+    position: absolute; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    z-index: 2;
+    font-weight: bold;
+ 
+  }
+
+.modalImage{
+    position: relative;
+    background-color: #6e686a;
+    height: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    color: white;
+}
+
+.modal-body{
+    font-weight: bold;
 }
 
 .cursive{
     font-family: Brush Script MT;
-}
-
-.img-fluid{
-    max-width: 200%;
 }
 
 .padding{
@@ -24,28 +50,47 @@ h1{
 }
 
 .margin {
-    margin: 75px 0px;
+    margin: 75px 0px; 
 }
 
 .image{
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.7);
 }
 
-.timeline::before{
-    content: '';
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    width: 2px;
-    bottom: -75px;
-    background: dodgerblue;
-    /* margin-left: 50px; */
-}
-
-.timeline:first-child::after {
-    display: none;
-}
-
 a:focus {
     outline: none !important
+}
+
+#Experience{
+    padding: 0;
+    margin: 0;
+}
+
+.experience {
+    background: rgb(58, 44, 44); 
+    background: rgba(44, 33, 33, 0.5); 
+    color: #f1f1f1; 
+    width: 100%; 
+    align-items: center;
+    display: flex;
+}
+
+.photo{
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+.social-buttons {
+    border-radius: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin: 4px;
+
+}
+
+.social-buttons a:hover,
+.social-buttons a:focus,
+.social-buttons a:active {
+    background-color: #0066cc;
 }
