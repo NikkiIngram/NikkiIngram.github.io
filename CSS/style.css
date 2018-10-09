@@ -1,6 +1,6 @@
  body {
      background-color: #574e51;
-     color: #0066cc;
+     color:wheat;
  }
 
 .container-fluid {
@@ -34,7 +34,7 @@
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    color: white;
+    color: wheat;
 }
 
 .modal-body{
@@ -67,9 +67,8 @@ a:focus {
 }
 
 .experience {
-    background: rgb(58, 44, 44); 
     background: rgba(44, 33, 33, 0.5); 
-    color: #f1f1f1; 
+    color: wheat !important; 
     width: 100%; 
     align-items: center;
     display: flex;
@@ -93,4 +92,8 @@ a:focus {
 .social-buttons a:focus,
 .social-buttons a:active {
     background-color: #0066cc;
+}
+
+a{
+color: wheat !important;
 }
