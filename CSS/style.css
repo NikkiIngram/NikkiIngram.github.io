@@ -94,6 +94,21 @@ a:focus {
     background-color: #0066cc;
 }
 
+.sqSocial-buttons {
+    border-radius: 30%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin: 4px;
+
+}
+
+.social-buttons a:hover,
+.social-buttons a:focus,
+.social-buttons a:active {
+    background-color: #0066cc;
+}
+
 a{
 color: wheat !important;
 }
