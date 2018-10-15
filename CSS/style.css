@@ -112,3 +112,7 @@ a:focus {
 a{
 color: wheat !important;
 }
+
+.card {
+    display: block !important;
+}
